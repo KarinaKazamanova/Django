@@ -1059,3 +1059,20 @@ INFO 2023-10-15 12:13:33,644 views 15720 5924 Index page accessed
 INFO 2023-10-15 12:13:33,653 basehttp 15720 5924 "GET /prefix/ HTTP/1.1" 200 1105
 WARNING 2023-10-15 12:13:33,679 basehttp 15720 16604 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
 INFO 2023-10-15 12:13:33,709 basehttp 15720 5924 "GET /static/myapp/space.jpeg HTTP/1.1" 200 8563117
+INFO 2023-10-15 12:24:50,854 autoreload 8844 6476 Watching for file changes with StatReloader
+INFO 2023-10-15 12:26:19,375 autoreload 8844 6476 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-15 12:26:19,836 autoreload 1220 6704 Watching for file changes with StatReloader
+INFO 2023-10-15 12:26:40,464 autoreload 1220 6704 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-15 12:26:40,900 autoreload 15216 6900 Watching for file changes with StatReloader
+INFO 2023-10-15 12:26:43,048 autoreload 15216 6900 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-15 12:26:43,470 autoreload 2596 8836 Watching for file changes with StatReloader
+INFO 2023-10-15 12:26:52,883 autoreload 2596 8836 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-15 12:26:53,363 autoreload 14176 11804 Watching for file changes with StatReloader
+INFO 2023-10-15 12:26:58,711 autoreload 14176 11804 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-15 12:26:59,143 autoreload 7112 328 Watching for file changes with StatReloader
+WARNING 2023-10-15 12:27:10,012 log 7112 16264 Not Found: /
+WARNING 2023-10-15 12:27:10,014 basehttp 7112 16264 "GET / HTTP/1.1" 404 2180
+INFO 2023-10-15 12:27:14,209 views 7112 16264 Index page accessed
+INFO 2023-10-15 12:27:14,213 basehttp 7112 16264 "GET /prefix/ HTTP/1.1" 200 1105
+INFO 2023-10-15 12:27:14,236 basehttp 7112 16264 "GET /static/myapp/space.jpeg HTTP/1.1" 304 0
+WARNING 2023-10-15 12:27:14,242 basehttp 7112 344 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837

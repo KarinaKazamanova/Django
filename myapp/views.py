@@ -2,6 +2,7 @@ import logging
 
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template.response import TemplateResponse
 
 # Create your views here.
 
@@ -12,7 +13,8 @@ def index(request):
     # with open ('myapp\\templates\index_alternative.html', 'r', encoding='utf-8') as file:
     #     html = file.read()
     # return HttpResponse(html)
-    return render(request, 'index.html')
+    # return render(request, 'index.html')
+    return TemplateResponse(request, 'index.html').render()
 
 def about(request):
     logger.info('About me page accessed')
