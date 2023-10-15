@@ -1076,3 +1076,53 @@ INFO 2023-10-15 12:27:14,209 views 7112 16264 Index page accessed
 INFO 2023-10-15 12:27:14,213 basehttp 7112 16264 "GET /prefix/ HTTP/1.1" 200 1105
 INFO 2023-10-15 12:27:14,236 basehttp 7112 16264 "GET /static/myapp/space.jpeg HTTP/1.1" 304 0
 WARNING 2023-10-15 12:27:14,242 basehttp 7112 344 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:32:53,213 autoreload 18352 18348 Watching for file changes with StatReloader
+INFO 2023-10-15 12:33:04,372 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:33:04,380 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1120
+WARNING 2023-10-15 12:33:04,412 log 18352 17156 Not Found: /prefix/{%static 'myapp/space.jpeg'%}
+WARNING 2023-10-15 12:33:04,413 basehttp 18352 17156 "GET /prefix/%7B%static%20'myapp/space.jpeg'%%7D HTTP/1.1" 404 2764
+WARNING 2023-10-15 12:33:04,413 basehttp 18352 9520 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:33:20,439 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:33:20,448 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1103
+WARNING 2023-10-15 12:33:20,473 log 18352 17156 Not Found: /prefix/{%static 'myapp/space.jpeg'%}
+WARNING 2023-10-15 12:33:20,474 basehttp 18352 17156 "GET /prefix/%7B%static%20'myapp/space.jpeg'%%7D HTTP/1.1" 404 2764
+WARNING 2023-10-15 12:33:20,474 basehttp 18352 16372 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:33:33,063 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:33:33,069 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1090
+WARNING 2023-10-15 12:33:33,097 log 18352 17156 Not Found: /prefix/myapp/space.jpeg
+WARNING 2023-10-15 12:33:33,098 basehttp 18352 17156 "GET /prefix/myapp/space.jpeg HTTP/1.1" 404 2685
+WARNING 2023-10-15 12:33:33,098 basehttp 18352 14408 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:33:33,903 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:33:33,904 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1090
+WARNING 2023-10-15 12:33:33,943 log 18352 17156 Not Found: /prefix/myapp/space.jpeg
+WARNING 2023-10-15 12:33:33,944 basehttp 18352 17156 "GET /prefix/myapp/space.jpeg HTTP/1.1" 404 2685
+WARNING 2023-10-15 12:33:33,944 basehttp 18352 15088 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:33:34,129 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:33:34,129 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1090
+WARNING 2023-10-15 12:33:34,156 basehttp 18352 14400 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+WARNING 2023-10-15 12:33:34,156 log 18352 17156 Not Found: /prefix/myapp/space.jpeg
+WARNING 2023-10-15 12:33:34,157 basehttp 18352 17156 "GET /prefix/myapp/space.jpeg HTTP/1.1" 404 2685
+INFO 2023-10-15 12:34:01,397 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:34:01,398 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1090
+WARNING 2023-10-15 12:34:01,426 basehttp 18352 17468 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+WARNING 2023-10-15 12:34:01,427 log 18352 17156 Not Found: /prefix/myapp/space.jpeg
+WARNING 2023-10-15 12:34:01,428 basehttp 18352 17156 "GET /prefix/myapp/space.jpeg HTTP/1.1" 404 2685
+INFO 2023-10-15 12:34:12,542 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:34:12,557 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1099
+WARNING 2023-10-15 12:34:12,582 log 18352 17156 Not Found: /prefix/static/myapp/space.jpeg
+WARNING 2023-10-15 12:34:12,582 basehttp 18352 12684 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+WARNING 2023-10-15 12:34:12,582 basehttp 18352 17156 "GET /prefix/static/myapp/space.jpeg HTTP/1.1" 404 2706
+INFO 2023-10-15 12:34:13,277 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:34:13,278 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1099
+WARNING 2023-10-15 12:34:13,302 log 18352 17156 Not Found: /prefix/static/myapp/space.jpeg
+WARNING 2023-10-15 12:34:13,304 basehttp 18352 17156 "GET /prefix/static/myapp/space.jpeg HTTP/1.1" 404 2706
+WARNING 2023-10-15 12:34:13,305 basehttp 18352 17060 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:34:13,506 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:34:13,507 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1099
+WARNING 2023-10-15 12:34:13,533 log 18352 17156 Not Found: /prefix/static/myapp/space.jpeg
+WARNING 2023-10-15 12:34:13,533 basehttp 18352 17156 "GET /prefix/static/myapp/space.jpeg HTTP/1.1" 404 2706
+WARNING 2023-10-15 12:34:13,534 basehttp 18352 15044 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-15 12:34:23,410 views 18352 17156 Index page accessed
+INFO 2023-10-15 12:34:23,417 basehttp 18352 17156 "GET /prefix/ HTTP/1.1" 200 1100
+INFO 2023-10-15 12:34:23,439 basehttp 18352 17156 "GET /static/myapp/space.jpeg HTTP/1.1" 304 0
+WARNING 2023-10-15 12:34:23,442 basehttp 18352 4988 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
