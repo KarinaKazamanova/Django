@@ -10,11 +10,11 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     logger.info('Index page accessed')
-    # with open ('myapp\\templates\index_alternative.html', 'r', encoding='utf-8') as file:
-    #     html = file.read()
-    # return HttpResponse(html)
+    with open ('myapp\\templates\index_alternative.html', 'r', encoding='utf-8') as file:
+        html = file.read()
+    return HttpResponse(html)
     # return render(request, 'index.html')
-    return TemplateResponse(request, 'index.html').render()
+    # return TemplateResponse(request, 'index.html').render()
 
 def about(request):
     logger.info('About me page accessed')
