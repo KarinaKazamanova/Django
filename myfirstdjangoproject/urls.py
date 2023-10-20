@@ -22,5 +22,6 @@ from . import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('prefix/', include('myapp.urls')),
+    path('app2/', include('myapp2.urls')),
     # patterns('', (r'^media/(?P../myapp/media.*)$', 'django.views.static.serve'), {'document_root': settings.MEDIA_ROOT})
 ]

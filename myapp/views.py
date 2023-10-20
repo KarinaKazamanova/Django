@@ -36,7 +36,9 @@ def customer_orders(request, customer_id):
         orderproduct = OrderProduct.objects.filter(order=order).all()
         for item in orderproduct:
             products.append(str(item.product.name))
-    return render(request, 'list_of_ordered_prods.html', {'list_of_prods':set(products), 'user': User.objects.filter(pk=customer_id).first().name})
+    return render(request, 
+                  'list_of_ordered_prods.html', 
+                  {'list_of_prods':set(products), 'user': User.objects.filter(pk=customer_id).first().name})
 
 
 
