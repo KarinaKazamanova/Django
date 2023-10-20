@@ -1,0 +1,15 @@
+{%extends 'layout.html' %}
+
+
+{% block title %}
+Main
+{%endblock%}
+
+{% block content%}
+        <h1>Товары Покупателя {{ user }}</h1>
+        {% for i in list_of_prods %}
+        {{ i }} <br>
+        {% endfor %}
+
+{%endblock%}
+  

@@ -1,3 +1,4 @@
+from typing import Literal
 from django.utils import timezone
 from django.db import models
 
@@ -24,7 +25,7 @@ class Product(models.Model):
     created_at = models.DateTimeField(default=timezone.now)
     # image = models.ImageField(upload_to='products/')
     def __str__(self):
-        return f'{self.name}\n{self.description}\nЦена: {self.price}\n Количество на складе: {self.quantity}'
+        return f'{self.name}\n{self.description}\nЦена: {self.price}\nКоличество на складе: {self.quantity}'
     
  
  
@@ -34,17 +35,15 @@ class Order(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product, through='OrderProduct')
     date_ordered = models.DateTimeField(default=timezone.now)
-    total_price = models.DecimalField(max_digits=8, decimal_places=2)
+    total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
     
-    def __str__(self):
-        user = User.objects.filter(pk=self.customer).first()
-        product_info = ''
-        for prod in self.products:
-            product_info += prod.name
-        return (f'Заказчик: {user.name}\n{self.description}\n' + product_info + "\n" + f'Стоимость заказа: {self.total_price}')
+    # def __str__(self):
+    #     user = User.objects.filter(pk=self.customer.id).first()
+        
+    #     return (f'Заказчик: {user.name}\n{self.products}\n' + "\n" + f'Стоимость заказа: {self.total_price}')
     
     
 class OrderProduct(models.Model):
-    order =  models.ForeignKey(Order, on_delete=models.CASCADE)
-    product =   models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField()  
+    order = models.ForeignKey(Order, on_delete=models.CASCADE, default=None)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, default=None)
+    quantity = models.IntegerField(default=0)  
