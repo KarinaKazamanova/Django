@@ -1,3 +1,4 @@
+import datetime
 import logging
 
 from django.shortcuts import render, get_list_or_404
@@ -5,6 +6,7 @@ from django.http import HttpResponse
 from django.template.response import TemplateResponse
 from django.views import View
 from .models import Order, User,OrderProduct
+from django.utils import timezone
 
 # Create your views here.
 
@@ -29,8 +31,11 @@ def my_photo(request):
     return (request, 'my_photo.jpg')
 
 
-def customer_orders(request, customer_id):
-    orders = Order.objects.filter(customer_id=customer_id)
+def customer_orders(request, customer_id, days):
+    delta = datetime.timedelta(days=days)
+    filter_day = datetime.datetime.now() - delta
+    user = User.objects.filter(pk=customer_id).first()
+    orders = Order.objects.filter(customer=customer_id).filter(date_ordered__gte = filter_day)
     products = []
     for order in orders:
         orderproduct = OrderProduct.objects.filter(order=order).all()
@@ -38,7 +43,9 @@ def customer_orders(request, customer_id):
             products.append(str(item.product.name))
     return render(request, 
                   'list_of_ordered_prods.html', 
-                  {'list_of_prods':set(products), 'user': User.objects.filter(pk=customer_id).first().name})
+                  {'list_of_prods':set(products), 
+                   'user': user.name,
+                   })
 
 
 

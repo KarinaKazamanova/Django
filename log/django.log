@@ -3198,3 +3198,268 @@ INFO 2023-10-21 02:54:26,403 basehttp 18124 17292 "GET /prefix/customer_orders/1
 WARNING 2023-10-21 02:54:26,426 basehttp 18124 17292 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
 INFO 2023-10-21 02:54:28,348 basehttp 18124 17788 "GET /prefix/customer_orders/1/ HTTP/1.1" 200 1239
 WARNING 2023-10-21 02:54:28,371 basehttp 18124 17788 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 02:59:08,165 autoreload 17196 9984 Watching for file changes with StatReloader
+WARNING 2023-10-21 02:59:14,019 log 17196 18256 Not Found: /prefix/customer_orders/1/
+WARNING 2023-10-21 02:59:14,020 basehttp 17196 18256 "GET /prefix/customer_orders/1/ HTTP/1.1" 404 3233
+ERROR 2023-10-21 02:59:25,080 log 17196 18256 Internal Server Error: /prefix/customer_orders/1/10
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py", line 34, in customer_orders
+    today = datetime.timezone()
+            ^^^^^^^^^^^^^^^^^^^
+TypeError: timezone() missing required argument 'offset' (pos 1)
+ERROR 2023-10-21 02:59:25,081 basehttp 17196 18256 "GET /prefix/customer_orders/1/10 HTTP/1.1" 500 67473
+INFO 2023-10-21 02:59:36,157 autoreload 17196 9984 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 02:59:36,600 autoreload 6168 18240 Watching for file changes with StatReloader
+INFO 2023-10-21 02:59:39,766 autoreload 6168 18240 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 02:59:40,196 autoreload 17888 18152 Watching for file changes with StatReloader
+ERROR 2023-10-21 02:59:42,644 log 17888 14788 Internal Server Error: /prefix/customer_orders/1/10
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py", line 34, in customer_orders
+    today = datetime.now()
+            ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2023-10-21 02:59:42,645 basehttp 17888 14788 "GET /prefix/customer_orders/1/10 HTTP/1.1" 500 67604
+INFO 2023-10-21 02:59:51,748 autoreload 17888 18152 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 02:59:52,210 autoreload 8656 17560 Watching for file changes with StatReloader
+INFO 2023-10-21 02:59:54,496 autoreload 8656 17560 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 02:59:54,933 autoreload 17944 6168 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:00,125 autoreload 17944 6168 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:00,586 autoreload 15500 17744 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:01,858 autoreload 15500 17744 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:02,336 autoreload 17496 18092 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:05,645 autoreload 17496 18092 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:06,101 autoreload 12708 18100 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:10,292 autoreload 12708 18100 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:10,732 autoreload 13128 13788 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:11,864 autoreload 13128 13788 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:12,285 autoreload 4304 3504 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:14,429 autoreload 4304 3504 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:14,872 autoreload 18252 17984 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:23,130 autoreload 18252 17984 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:23,567 autoreload 9796 18260 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:24,839 autoreload 9796 18260 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:25,270 autoreload 1064 17344 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:31,475 autoreload 1064 17344 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:31,923 autoreload 11428 5540 Watching for file changes with StatReloader
+INFO 2023-10-21 03:00:54,380 autoreload 11428 5540 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:00:54,843 autoreload 13972 10180 Watching for file changes with StatReloader
+INFO 2023-10-21 03:01:01,062 autoreload 13972 10180 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:01,498 autoreload 17628 10768 Watching for file changes with StatReloader
+INFO 2023-10-21 03:01:02,775 autoreload 17628 10768 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:03,266 autoreload 13636 18180 Watching for file changes with StatReloader
+ERROR 2023-10-21 03:01:03,787 log 13636 17632 Internal Server Error: /prefix/customer_orders/1/10
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py", line 34, in customer_orders
+    today = timezone()
+            ^^^^^^^^^^
+TypeError: 'module' object is not callable
+ERROR 2023-10-21 03:01:03,789 basehttp 13636 17632 "GET /prefix/customer_orders/1/10 HTTP/1.1" 500 67486
+INFO 2023-10-21 03:01:12,704 autoreload 13636 18180 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:13,138 autoreload 18124 8064 Watching for file changes with StatReloader
+INFO 2023-10-21 03:01:13,319 basehttp 18124 15740 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:13,342 basehttp 18124 15740 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:13,790 basehttp 18124 17860 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:13,817 basehttp 18124 17860 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:24,985 basehttp 18124 16452 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:25,006 basehttp 18124 16452 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:25,990 basehttp 18124 17956 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:26,012 basehttp 18124 17956 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:26,769 basehttp 18124 2108 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:26,791 basehttp 18124 2108 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:26,962 basehttp 18124 13896 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:26,985 basehttp 18124 13896 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:27,180 basehttp 18124 9920 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1239
+WARNING 2023-10-21 03:01:27,203 basehttp 18124 9920 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:01:42,936 autoreload 18124 8064 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:43,398 autoreload 15008 9132 Watching for file changes with StatReloader
+INFO 2023-10-21 03:01:51,812 autoreload 15008 9132 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:52,244 autoreload 3372 5008 Watching for file changes with StatReloader
+INFO 2023-10-21 03:01:56,428 autoreload 3372 5008 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:01:56,928 autoreload 7432 18220 Watching for file changes with StatReloader
+INFO 2023-10-21 03:02:08,120 basehttp 7432 1180 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1406
+WARNING 2023-10-21 03:02:08,145 basehttp 7432 1180 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:02:46,205 autoreload 7432 18220 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:02:46,647 autoreload 12304 6236 Watching for file changes with StatReloader
+INFO 2023-10-21 03:02:53,011 autoreload 12304 6236 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:02:53,462 autoreload 16564 5044 Watching for file changes with StatReloader
+INFO 2023-10-21 03:02:59,111 basehttp 16564 9036 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1272
+WARNING 2023-10-21 03:02:59,137 basehttp 16564 9036 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:03:13,191 autoreload 16564 5044 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:13,637 autoreload 18344 7920 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:14,908 autoreload 18344 7920 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:15,340 autoreload 14548 15696 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:25,772 autoreload 14548 15696 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:26,237 autoreload 8436 15356 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:32,617 autoreload 8436 15356 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:33,065 autoreload 18100 18428 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:36,374 autoreload 18100 18428 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:36,824 autoreload 18396 6236 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:39,113 autoreload 18396 6236 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:39,603 autoreload 16084 10840 Watching for file changes with StatReloader
+INFO 2023-10-21 03:03:41,755 autoreload 16084 10840 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:03:42,202 autoreload 17588 17528 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:26,255 autoreload 17588 17528 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:26,692 autoreload 416 16936 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:31,036 autoreload 416 16936 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:31,482 autoreload 7920 13712 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:35,805 autoreload 7920 13712 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:36,262 autoreload 2324 18032 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:38,552 autoreload 2324 18032 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:38,990 autoreload 412 17528 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:41,280 autoreload 412 17528 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:41,730 autoreload 4152 13408 Watching for file changes with StatReloader
+INFO 2023-10-21 03:04:42,866 autoreload 4152 13408 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:04:43,325 autoreload 13712 7920 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:25,427 autoreload 13712 7920 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:25,890 autoreload 9984 11240 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:28,040 autoreload 9984 11240 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:28,477 autoreload 18228 18204 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:30,761 autoreload 18228 18204 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:31,222 autoreload 12160 2324 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:34,535 autoreload 12160 2324 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:34,997 autoreload 16936 18204 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:44,420 autoreload 16936 18204 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:44,847 autoreload 18348 13952 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:48,171 autoreload 18348 13952 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:48,641 autoreload 15228 17600 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:56,016 autoreload 15228 17600 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:56,462 autoreload 17724 7080 Watching for file changes with StatReloader
+INFO 2023-10-21 03:06:58,756 autoreload 17724 7080 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:06:59,188 autoreload 18344 18228 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:00,455 autoreload 18344 18228 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:00,892 autoreload 9984 13712 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:03,195 autoreload 9984 13712 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:03,629 autoreload 17584 17844 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:13,053 autoreload 17584 17844 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:13,485 autoreload 11240 15552 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:16,795 autoreload 11240 15552 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:17,232 autoreload 1680 3696 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:19,387 autoreload 1680 3696 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:19,841 autoreload 9644 4340 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:20,978 autoreload 9644 4340 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:21,404 autoreload 12964 17936 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:23,703 autoreload 12964 17936 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:24,179 autoreload 6748 18056 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:36,667 autoreload 6748 18056 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:37,124 autoreload 18352 8928 Watching for file changes with StatReloader
+INFO 2023-10-21 03:07:39,417 autoreload 18352 8928 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:07:39,865 autoreload 8716 8356 Watching for file changes with StatReloader
+INFO 2023-10-21 03:08:04,564 autoreload 8716 8356 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:08:04,997 autoreload 17600 17488 Watching for file changes with StatReloader
+INFO 2023-10-21 03:08:06,275 autoreload 17600 17488 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:08:06,714 autoreload 12076 11012 Watching for file changes with StatReloader
+INFO 2023-10-21 03:10:15,317 autoreload 12076 11012 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:10:15,767 autoreload 18248 5764 Watching for file changes with StatReloader
+INFO 2023-10-21 03:10:20,097 autoreload 18248 5764 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:10:20,545 autoreload 18320 16564 Watching for file changes with StatReloader
+INFO 2023-10-21 03:10:22,824 autoreload 18320 16564 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:10:23,262 autoreload 14616 15264 Watching for file changes with StatReloader
+INFO 2023-10-21 03:10:24,539 autoreload 14616 15264 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:10:25,017 autoreload 8656 18216 Watching for file changes with StatReloader
+INFO 2023-10-21 03:12:42,377 autoreload 8656 18216 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:12:42,812 autoreload 17716 8400 Watching for file changes with StatReloader
+INFO 2023-10-21 03:12:44,971 autoreload 17716 8400 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:12:45,393 autoreload 18728 13784 Watching for file changes with StatReloader
+INFO 2023-10-21 03:12:47,692 autoreload 18728 13784 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:12:48,168 autoreload 18572 6188 Watching for file changes with StatReloader
+INFO 2023-10-21 03:16:48,027 basehttp 18572 19384 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1052
+WARNING 2023-10-21 03:16:48,055 basehttp 18572 19384 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:17:09,032 basehttp 18572 6512 "GET /prefix/customer_orders/1/1 HTTP/1.1" 200 1052
+WARNING 2023-10-21 03:17:09,057 basehttp 18572 6512 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:17:47,470 basehttp 18572 10536 "GET /prefix/customer_orders/1/0 HTTP/1.1" 200 1248
+WARNING 2023-10-21 03:17:47,493 basehttp 18572 10536 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:17:56,304 basehttp 18572 17480 "GET /prefix/customer_orders/1/1 HTTP/1.1" 200 1052
+WARNING 2023-10-21 03:17:56,326 basehttp 18572 17480 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:18:45,088 autoreload 18572 6188 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:18:45,556 autoreload 18032 6868 Watching for file changes with StatReloader
+INFO 2023-10-21 03:18:48,629 basehttp 18032 9884 "GET /prefix/customer_orders/1/1 HTTP/1.1" 200 1248
+WARNING 2023-10-21 03:18:48,654 basehttp 18032 9884 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:18:56,402 basehttp 18032 6512 "GET /prefix/customer_orders/1/11 HTTP/1.1" 200 1248
+WARNING 2023-10-21 03:18:56,426 basehttp 18032 6512 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:19:08,235 basehttp 18032 19360 "GET /prefix/customer_orders/1/365 HTTP/1.1" 200 1248
+WARNING 2023-10-21 03:19:08,259 basehttp 18032 19360 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:19:16,826 basehttp 18032 17400 "GET /prefix/customer_orders/1/1000 HTTP/1.1" 200 1248
+WARNING 2023-10-21 03:19:16,848 basehttp 18032 17400 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:19:27,441 basehttp 18032 14804 "GET /prefix/customer_orders/13/10 HTTP/1.1" 200 1243
+WARNING 2023-10-21 03:19:27,465 basehttp 18032 14804 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:19:35,852 autoreload 18032 6868 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:19:36,279 autoreload 18884 18260 Watching for file changes with StatReloader
+INFO 2023-10-21 03:19:49,773 autoreload 18884 18260 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:19:50,227 autoreload 19076 19136 Watching for file changes with StatReloader
+INFO 2023-10-21 03:19:52,533 autoreload 19076 19136 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:19:52,984 autoreload 13120 4304 Watching for file changes with StatReloader
+INFO 2023-10-21 03:19:55,286 autoreload 13120 4304 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:19:55,729 autoreload 16392 10536 Watching for file changes with StatReloader
+INFO 2023-10-21 03:19:56,994 autoreload 16392 10536 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:19:57,446 autoreload 19104 1244 Watching for file changes with StatReloader
+INFO 2023-10-21 03:19:59,734 autoreload 19104 1244 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:00,187 autoreload 17108 17696 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:02,335 autoreload 17108 17696 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:02,791 autoreload 18584 12732 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:04,068 autoreload 18584 12732 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:04,498 autoreload 11000 11436 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:10,858 autoreload 11000 11436 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:11,320 autoreload 19432 19064 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:16,687 autoreload 19432 19064 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:17,158 autoreload 18236 19392 Watching for file changes with StatReloader
+ERROR 2023-10-21 03:20:17,781 log 18236 8552 Internal Server Error: /prefix/customer_orders/13/10
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py", line 47, in customer_orders
+    'user': user.name,
+            ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2023-10-21 03:20:17,783 basehttp 18236 8552 "GET /prefix/customer_orders/13/10 HTTP/1.1" 500 70138
+INFO 2023-10-21 03:20:31,670 autoreload 18236 19392 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:32,125 autoreload 9632 19144 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:34,422 autoreload 9632 19144 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:20:34,879 autoreload 11468 18900 Watching for file changes with StatReloader
+INFO 2023-10-21 03:20:35,116 basehttp 11468 18624 "GET /prefix/customer_orders/13/10 HTTP/1.1" 200 1243
+WARNING 2023-10-21 03:20:35,140 basehttp 11468 18624 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:20:36,523 basehttp 11468 10180 "GET /prefix/customer_orders/13/10 HTTP/1.1" 200 1243
+WARNING 2023-10-21 03:20:36,545 basehttp 11468 10180 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:20:50,451 basehttp 11468 17452 "GET /prefix/customer_orders/15/10 HTTP/1.1" 200 1048
+WARNING 2023-10-21 03:20:50,475 basehttp 11468 17452 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:21:05,719 autoreload 11468 18900 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:21:06,173 autoreload 9432 18880 Watching for file changes with StatReloader
+INFO 2023-10-21 03:21:07,305 autoreload 9432 18880 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:21:07,737 autoreload 18940 19332 Watching for file changes with StatReloader
+INFO 2023-10-21 03:21:10,903 autoreload 18940 19332 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:21:11,334 autoreload 18624 10180 Watching for file changes with StatReloader
+INFO 2023-10-21 03:21:13,635 autoreload 18624 10180 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:21:14,067 autoreload 17584 18128 Watching for file changes with StatReloader
+INFO 2023-10-21 03:21:19,943 basehttp 17584 6864 "GET /prefix/customer_orders/15/10 HTTP/1.1" 200 1072
+WARNING 2023-10-21 03:21:19,968 basehttp 17584 6864 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:21:38,362 basehttp 17584 2524 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1272
+WARNING 2023-10-21 03:21:38,386 basehttp 17584 2524 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:22:22,714 basehttp 17584 18940 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1272
+WARNING 2023-10-21 03:22:22,739 basehttp 17584 18940 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:22:23,553 basehttp 17584 2832 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1272
+WARNING 2023-10-21 03:22:23,576 basehttp 17584 2832 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:26:22,593 basehttp 17584 16360 "GET /prefix/customer_orders/1/10 HTTP/1.1" 200 1216
+WARNING 2023-10-21 03:26:22,619 basehttp 17584 16360 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-21 03:26:38,544 autoreload 17584 18128 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\views.py changed, reloading.
+INFO 2023-10-21 03:26:39,022 autoreload 19288 18624 Watching for file changes with StatReloader
