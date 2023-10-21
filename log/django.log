@@ -5372,3 +5372,12 @@ INFO 2023-10-22 02:29:23,814 autoreload 17768 2940 C:\Users\User\Desktop\django_
 INFO 2023-10-22 02:29:24,247 autoreload 19448 20968 Watching for file changes with StatReloader
 INFO 2023-10-22 02:29:33,625 autoreload 19448 20968 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\forms.py changed, reloading.
 INFO 2023-10-22 02:29:34,074 autoreload 20144 13608 Watching for file changes with StatReloader
+INFO 2023-10-22 02:30:03,120 autoreload 20500 17940 Watching for file changes with StatReloader
+INFO 2023-10-22 02:30:04,894 basehttp 20500 20816 "GET /prefix/update_product/ HTTP/1.1" 200 2176
+WARNING 2023-10-22 02:30:04,919 basehttp 20500 20816 "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 404 1837
+INFO 2023-10-22 02:30:20,829 autoreload 20500 17940 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\forms.py changed, reloading.
+INFO 2023-10-22 02:30:21,276 autoreload 22332 12668 Watching for file changes with StatReloader
+INFO 2023-10-22 02:30:22,552 autoreload 22332 12668 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\forms.py changed, reloading.
+INFO 2023-10-22 02:30:22,981 autoreload 5760 17844 Watching for file changes with StatReloader
+INFO 2023-10-22 02:30:24,274 autoreload 5760 17844 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\forms.py changed, reloading.
+INFO 2023-10-22 02:30:24,712 autoreload 22860 21496 Watching for file changes with StatReloader
