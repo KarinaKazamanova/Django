@@ -6,9 +6,17 @@ Main
 {%endblock%}
 
 {% block content%}
-        <h1>Товары Покупателя {{ user }}</h1>
-        {% for i in list_of_prods %}
-        {{ i }} <br>
+        <h1>{{ description }}</h1>
+        {% for i in list %}
+        <div class='product'>
+            Наименование : {{ i.name }} <br>
+            Описание: {{ i.description }} <br>
+            Цена: {{ i.price }} <br>
+            Количество на складе: {{ i.quantity }} <br>
+            {% load static %}
+            <img class="menu_subbarpic" src="{%static i.image %}" alt="me" width='120'><br>
+            
+        </div>
         {% endfor %}
        
 

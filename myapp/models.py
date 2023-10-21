@@ -23,10 +23,15 @@ class Product(models.Model):
     description = models.TextField()
     quantity = models.IntegerField()
     created_at = models.DateTimeField(default=timezone.now)
-    # image = models.ImageField(upload_to='products/')
+    image = models.ImageField(upload_to='myapp/', default='myapp/no_image.png')
     def __str__(self):
-        return f'{self.name}\n{self.description}\nЦена: {self.price}\nКоличество на складе: {self.quantity}'
-    
+        return "\n".join([f"Наименование: {self.name}",
+                          f"Описание: {self.description}",
+                          f"Цена: {self.price}",
+                          f"Количество на складе: {self.quantity}"])
+               
+                
+
  
  
     

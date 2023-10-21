@@ -53,6 +53,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myfirstdjangoproject.urls'
 
+
+MEDIA_URL = '/myapp/'
+MEDIA_ROOT = BASE_DIR / 'myapp/static/'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
