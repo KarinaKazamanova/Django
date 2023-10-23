@@ -1,0 +1,16 @@
+{%extends 'layout.html' %}
+
+
+{% block title %}
+Продукт не найден
+
+{%endblock%}
+
+{% block content%}
+<h1>Простите, но такого товара  нет</h1>
+{%load static%}
+<img class="menu_subbarpic" src="{%static 'myapp/no_product.png '%}" alt="me" width='120'>
+
+
+
+{%endblock%}

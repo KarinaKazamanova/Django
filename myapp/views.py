@@ -94,7 +94,37 @@ def add_product(request):
     
 def product_not_found(request):
     return render(request, 'product_not_found.html')
+
+# dict_ = {
+#     'name': name,
+#     'price': price,
+#     'description': desciption,
+#     'quantity': qiantity,
+#     'image': image,
+# }
+
+ 
+# def update_product(request):
     
+#     desc = 'Заполните форму для обновления данных о товаре'
+#     btn = 'Обновить'
+#     if request.method == "POST":
+#         form = UpdateProductForm(request.POST, request.FILES)
+#         if form.is_valid():
+#             product_id = form.cleaned_data['id']
+#             product = Product.objects.filter(pk=product_id).first()
+#             if product:
+#                 for key, item in dict_.items():
+#                    if form.cleaned_data[key]:
+#                        product.item = 
+#             else:
+#                 return product_not_found(request)
+#     else:
+#         form = UpdateProductForm()
+#     return render(request, 'form.html', {'form': form,
+#                                   'description': desc,
+#                                   'button': btn,
+#                                 })   
     
 def update_product(request):
     desc = 'Заполните форму для обновления данных о товаре'
