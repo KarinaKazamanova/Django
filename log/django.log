@@ -6065,3 +6065,122 @@ INFO 2023-10-23 22:39:10,236 basehttp 2708 7628 "GET /admin/login/?next=/admin/ 
 INFO 2023-10-23 22:39:17,380 basehttp 2708 7628 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 INFO 2023-10-23 22:39:17,395 basehttp 2708 7628 "GET /admin/ HTTP/1.1" 200 10258
 INFO 2023-10-23 22:39:19,360 basehttp 2708 7628 "GET /admin/ HTTP/1.1" 200 10258
+INFO 2023-10-28 00:37:56,863 autoreload 11836 17604 Watching for file changes with StatReloader
+INFO 2023-10-28 00:38:32,451 autoreload 13152 11428 Watching for file changes with StatReloader
+INFO 2023-10-28 00:38:52,022 autoreload 13152 11428 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:38:52,487 autoreload 11412 23500 Watching for file changes with StatReloader
+INFO 2023-10-28 00:39:13,063 autoreload 11412 23500 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:39:13,513 autoreload 9988 7056 Watching for file changes with StatReloader
+INFO 2023-10-28 00:39:25,949 autoreload 9988 7056 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:39:26,391 autoreload 21916 19808 Watching for file changes with StatReloader
+INFO 2023-10-28 00:39:28,657 autoreload 21916 19808 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:39:29,099 autoreload 22232 23952 Watching for file changes with StatReloader
+INFO 2023-10-28 00:41:21,411 autoreload 9444 19980 Watching for file changes with StatReloader
+INFO 2023-10-28 00:42:40,966 autoreload 9444 19980 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:42:41,420 autoreload 23604 11992 Watching for file changes with StatReloader
+INFO 2023-10-28 00:42:45,717 autoreload 23604 11992 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:42:46,174 autoreload 15872 5992 Watching for file changes with StatReloader
+INFO 2023-10-28 00:42:54,533 autoreload 15872 5992 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:42:54,986 autoreload 22740 3388 Watching for file changes with StatReloader
+INFO 2023-10-28 00:42:56,220 autoreload 22740 3388 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:42:56,664 autoreload 16428 5224 Watching for file changes with StatReloader
+INFO 2023-10-28 00:43:02,989 autoreload 16428 5224 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:43:03,434 autoreload 20584 12044 Watching for file changes with StatReloader
+INFO 2023-10-28 00:43:06,701 autoreload 20584 12044 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:43:07,162 autoreload 5880 20940 Watching for file changes with StatReloader
+INFO 2023-10-28 00:43:17,605 autoreload 5880 20940 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:43:18,059 autoreload 13396 22572 Watching for file changes with StatReloader
+INFO 2023-10-28 00:43:19,324 autoreload 13396 22572 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:43:19,780 autoreload 23516 16776 Watching for file changes with StatReloader
+INFO 2023-10-28 00:43:26,147 autoreload 23516 16776 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\admin.py changed, reloading.
+INFO 2023-10-28 00:43:26,637 autoreload 5504 19900 Watching for file changes with StatReloader
+WARNING 2023-10-28 00:43:29,692 log 5504 7368 Not Found: /
+WARNING 2023-10-28 00:43:29,692 basehttp 5504 7368 "GET / HTTP/1.1" 404 2285
+WARNING 2023-10-28 00:43:29,746 log 5504 7368 Not Found: /favicon.ico
+WARNING 2023-10-28 00:43:29,747 basehttp 5504 7368 "GET /favicon.ico HTTP/1.1" 404 2336
+WARNING 2023-10-28 00:43:32,525 log 5504 7368 Not Found: /
+WARNING 2023-10-28 00:43:32,525 basehttp 5504 7368 "GET / HTTP/1.1" 404 2285
+INFO 2023-10-28 00:44:10,438 basehttp 5504 7368 "GET /admin/ HTTP/1.1" 200 11123
+INFO 2023-10-28 00:44:10,474 basehttp 5504 7368 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,476 basehttp 5504 9452 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,477 basehttp 5504 16476 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,477 basehttp 5504 2836 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,478 basehttp 5504 7368 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,478 basehttp 5504 17316 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,478 basehttp 5504 3696 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,486 basehttp 5504 3696 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:10,486 basehttp 5504 17316 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,849 basehttp 5504 17316 "GET /admin/myapp/user/ HTTP/1.1" 200 23942
+INFO 2023-10-28 00:44:13,875 basehttp 5504 17316 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,879 basehttp 5504 16476 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,879 basehttp 5504 3696 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,880 basehttp 5504 9452 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,880 basehttp 5504 7368 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,880 basehttp 5504 2836 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,885 basehttp 5504 16476 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,886 basehttp 5504 3696 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,886 basehttp 5504 9452 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,886 basehttp 5504 7368 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,895 basehttp 5504 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:44:13,895 basehttp 5504 7368 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,910 basehttp 5504 7368 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:13,912 basehttp 5504 17316 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:28,087 basehttp 5504 17316 "GET /admin/myapp/user/29/change/ HTTP/1.1" 200 12017
+INFO 2023-10-28 00:44:28,114 basehttp 5504 17316 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:28,117 basehttp 5504 7368 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:28,121 basehttp 5504 17316 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:44:28,121 basehttp 5504 7368 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:28,123 basehttp 5504 7368 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:44:34,289 basehttp 5504 7368 "GET /admin/myapp/user/ HTTP/1.1" 200 23942
+INFO 2023-10-28 00:44:56,285 basehttp 5504 7368 "GET /admin/myapp/product/ HTTP/1.1" 200 18753
+INFO 2023-10-28 00:44:56,316 basehttp 5504 7368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:44:57,666 basehttp 5504 7368 "GET /admin/myapp/order/ HTTP/1.1" 200 16352
+INFO 2023-10-28 00:44:57,694 basehttp 5504 7368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:45:59,248 basehttp 5504 7368 "GET /admin/myapp/order/ HTTP/1.1" 200 16352
+INFO 2023-10-28 00:45:59,276 basehttp 5504 7368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:46:03,783 basehttp 5504 7368 "GET /admin/myapp/order/add/ HTTP/1.1" 200 14429
+INFO 2023-10-28 00:46:03,812 basehttp 5504 17316 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:03,812 basehttp 5504 9452 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:03,813 basehttp 5504 3696 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:03,816 basehttp 5504 7368 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:46:03,838 basehttp 5504 7368 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:03,839 basehttp 5504 3696 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:15,741 basehttp 5504 3696 "POST /admin/myapp/order/add/ HTTP/1.1" 302 0
+INFO 2023-10-28 00:46:15,756 basehttp 5504 3696 "GET /admin/myapp/order/1/change/ HTTP/1.1" 200 14953
+INFO 2023-10-28 00:46:15,786 basehttp 5504 3696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:46:15,799 basehttp 5504 3696 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-10-28 00:46:21,427 basehttp 5504 3696 "POST /admin/myapp/order/1/change/ HTTP/1.1" 302 0
+INFO 2023-10-28 00:46:21,442 basehttp 5504 3696 "GET /admin/myapp/order/ HTTP/1.1" 200 19057
+INFO 2023-10-28 00:46:21,474 basehttp 5504 3696 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:46:34,781 autoreload 5504 19900 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:46:35,242 autoreload 12620 7496 Watching for file changes with StatReloader
+INFO 2023-10-28 00:46:39,504 autoreload 12620 7496 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:46:39,945 autoreload 22476 17324 Watching for file changes with StatReloader
+INFO 2023-10-28 00:46:43,246 autoreload 22476 17324 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:46:43,710 autoreload 4396 1136 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:01,158 autoreload 4396 1136 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:01,628 autoreload 8512 4872 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:02,363 basehttp 8512 20632 "GET /admin/myapp/order/ HTTP/1.1" 200 19131
+INFO 2023-10-28 00:47:02,395 basehttp 8512 20632 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:47:10,039 autoreload 8512 4872 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:10,494 autoreload 17296 17960 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:12,735 autoreload 17296 17960 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:13,159 autoreload 22956 21472 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:16,415 autoreload 22956 21472 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:16,865 autoreload 8596 2316 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:18,145 autoreload 8596 2316 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:18,621 autoreload 6428 10032 Watching for file changes with StatReloader
+INFO 2023-10-28 00:47:20,413 basehttp 6428 13768 "GET /admin/myapp/order/ HTTP/1.1" 200 20054
+INFO 2023-10-28 00:47:20,440 basehttp 6428 13768 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:47:56,690 autoreload 6428 10032 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:47:57,168 autoreload 17128 17580 Watching for file changes with StatReloader
+INFO 2023-10-28 00:48:02,528 autoreload 17128 17580 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:48:02,977 autoreload 13524 16708 Watching for file changes with StatReloader
+INFO 2023-10-28 00:48:05,277 autoreload 13524 16708 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:48:05,773 autoreload 11192 4456 Watching for file changes with StatReloader
+INFO 2023-10-28 00:48:06,439 basehttp 11192 11056 "GET /admin/myapp/order/ HTTP/1.1" 200 20153
+INFO 2023-10-28 00:48:06,467 basehttp 11192 11056 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 00:48:14,176 autoreload 11192 4456 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:48:14,644 autoreload 23604 19324 Watching for file changes with StatReloader
+INFO 2023-10-28 00:48:16,948 autoreload 23604 19324 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
+INFO 2023-10-28 00:48:17,399 autoreload 23948 2668 Watching for file changes with StatReloader

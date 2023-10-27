@@ -15,7 +15,7 @@ class User(models.Model):
     
     
     def __str__(self):
-        return f'{self.name} {self.email}'
+        return f'{self.name} {self.email} {self.adress} {self.phone_number}'
     
 class Product(models.Model):
     name = models.CharField(max_length=100)
