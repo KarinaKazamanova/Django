@@ -6184,3 +6184,505 @@ INFO 2023-10-28 00:48:14,176 autoreload 11192 4456 C:\Users\User\Desktop\django_
 INFO 2023-10-28 00:48:14,644 autoreload 23604 19324 Watching for file changes with StatReloader
 INFO 2023-10-28 00:48:16,948 autoreload 23604 19324 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myapp\models.py changed, reloading.
 INFO 2023-10-28 00:48:17,399 autoreload 23948 2668 Watching for file changes with StatReloader
+INFO 2023-10-28 11:54:05,236 autoreload 8752 24136 Watching for file changes with StatReloader
+INFO 2023-10-28 11:54:21,173 autoreload 8864 11572 Watching for file changes with StatReloader
+INFO 2023-10-28 11:55:35,587 autoreload 19756 11080 Watching for file changes with StatReloader
+INFO 2023-10-28 11:56:25,013 autoreload 6892 23444 Watching for file changes with StatReloader
+INFO 2023-10-28 11:57:05,295 autoreload 6892 23444 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 11:57:08,053 autoreload 184 20548 Watching for file changes with StatReloader
+INFO 2023-10-28 11:57:13,460 autoreload 184 20548 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 11:57:13,964 autoreload 15416 10564 Watching for file changes with StatReloader
+INFO 2023-10-28 11:57:42,972 autoreload 15416 10564 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 11:57:43,486 autoreload 14312 17568 Watching for file changes with StatReloader
+WARNING 2023-10-28 11:57:49,214 log 14312 9320 Not Found: /
+WARNING 2023-10-28 11:57:49,215 basehttp 14312 9320 "GET / HTTP/1.1" 404 12172
+INFO 2023-10-28 11:57:49,251 basehttp 14312 9320 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-28 11:57:49,261 basehttp 14312 23792 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-28 11:57:49,280 basehttp 14312 23792 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-28 11:57:49,310 basehttp 14312 23792 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-10-28 11:57:59,306 basehttp 14312 23792 "GET /admin/ HTTP/1.1" 200 20904
+INFO 2023-10-28 13:49:34,266 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=a1bb053d5bac4fffb10a7b97f724d2f2&panel_id=HistoryPanel HTTP/1.1" 200 4145
+INFO 2023-10-28 13:49:34,281 basehttp 14312 6164 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-10-28 13:49:44,877 basehttp 14312 6164 "GET /admin/myapp/product/ HTTP/1.1" 200 28593
+INFO 2023-10-28 13:49:44,911 basehttp 14312 1384 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-28 13:49:44,913 basehttp 14312 21252 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-28 13:49:44,935 basehttp 14312 6164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 13:49:44,946 basehttp 14312 6164 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-28 13:49:44,972 basehttp 14312 6164 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-28 13:50:07,520 basehttp 14312 6164 "GET /admin/myapp/order/1/change/ HTTP/1.1" 200 25691
+INFO 2023-10-28 13:50:07,572 basehttp 14312 6164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 13:50:12,086 basehttp 14312 6164 "POST /admin/myapp/order/1/change/ HTTP/1.1" 302 0
+INFO 2023-10-28 13:50:12,121 basehttp 14312 6164 "GET /admin/myapp/order/add/ HTTP/1.1" 200 25716
+INFO 2023-10-28 13:50:12,167 basehttp 14312 6164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 13:50:25,220 basehttp 14312 6164 "POST /admin/myapp/order/add/ HTTP/1.1" 302 0
+INFO 2023-10-28 13:50:25,263 basehttp 14312 6164 "GET /admin/myapp/order/ HTTP/1.1" 200 30474
+INFO 2023-10-28 13:50:25,308 basehttp 14312 6164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 13:50:29,122 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=1c078b62b2c8425b9e35a9232c894e6d&panel_id=HistoryPanel HTTP/1.1" 200 23842
+INFO 2023-10-28 13:50:32,950 basehttp 14312 6164 "GET /admin/myapp/product/ HTTP/1.1" 200 28592
+INFO 2023-10-28 13:50:32,996 basehttp 14312 6164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-28 13:50:34,907 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=03e8accfb3d4499cad11f4556ac0c92c&panel_id=HistoryPanel HTTP/1.1" 200 27143
+INFO 2023-10-28 13:50:44,240 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=03e8accfb3d4499cad11f4556ac0c92c&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-28 13:50:56,039 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=03e8accfb3d4499cad11f4556ac0c92c&panel_id=SQLPanel HTTP/1.1" 200 73001
+INFO 2023-10-28 13:51:55,666 basehttp 14312 6164 "POST /__debug__/sql_explain/ HTTP/1.1" 200 1184
+INFO 2023-10-28 13:53:30,957 basehttp 14312 6164 "GET /__debug__/render_panel/?store_id=03e8accfb3d4499cad11f4556ac0c92c&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-10-28 14:23:09,335 autoreload 14312 17568 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:23:09,911 autoreload 18316 9152 Watching for file changes with StatReloader
+INFO 2023-10-28 14:23:12,257 autoreload 18316 9152 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:23:12,732 autoreload 1284 11984 Watching for file changes with StatReloader
+INFO 2023-10-28 14:23:15,067 autoreload 1284 11984 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:23:15,559 autoreload 23252 9040 Watching for file changes with StatReloader
+INFO 2023-10-28 14:23:16,872 autoreload 23252 9040 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:23:17,374 autoreload 14368 3280 Watching for file changes with StatReloader
+INFO 2023-10-28 14:23:32,035 autoreload 14368 3280 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:23:32,536 autoreload 17576 13616 Watching for file changes with StatReloader
+INFO 2023-10-28 14:25:43,162 autoreload 17576 13616 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:25:43,670 autoreload 696 4116 Watching for file changes with StatReloader
+INFO 2023-10-28 14:25:45,004 autoreload 696 4116 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:25:45,500 autoreload 7484 6576 Watching for file changes with StatReloader
+INFO 2023-10-28 14:25:46,820 autoreload 7484 6576 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:25:47,304 autoreload 18280 16804 Watching for file changes with StatReloader
+INFO 2023-10-28 14:25:49,650 autoreload 18280 16804 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:25:50,134 autoreload 3188 6904 Watching for file changes with StatReloader
+INFO 2023-10-28 14:25:54,524 autoreload 3188 6904 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:25:55,012 autoreload 14280 14004 Watching for file changes with StatReloader
+INFO 2023-10-28 14:26:00,431 autoreload 14280 14004 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:26:00,919 autoreload 18324 1808 Watching for file changes with StatReloader
+INFO 2023-10-28 14:26:40,178 autoreload 18324 1808 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-28 14:26:40,678 autoreload 11288 1200 Watching for file changes with StatReloader
+INFO 2023-10-30 01:38:52,150 autoreload 11604 9528 Watching for file changes with StatReloader
+INFO 2023-10-30 01:38:57,739 basehttp 11604 3296 "GET /admin/myapp/order/ HTTP/1.1" 200 20432
+WARNING 2023-10-30 01:38:57,757 log 11604 3296 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:38:57,758 basehttp 11604 3296 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,760 log 11604 3296 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:38:57,761 log 11604 6484 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:38:57,762 log 11604 13320 Not Found: /static/admin/css/changelists.css
+WARNING 2023-10-30 01:38:57,764 log 11604 11676 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2023-10-30 01:38:57,764 basehttp 11604 3296 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,765 basehttp 11604 6484 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,765 basehttp 11604 13320 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,766 log 11604 3736 Not Found: /static/admin/js/jquery.init.js
+WARNING 2023-10-30 01:38:57,766 basehttp 11604 11676 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,767 log 11604 3296 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:38:57,769 log 11604 6484 Not Found: /static/admin/js/core.js
+WARNING 2023-10-30 01:38:57,769 log 11604 13320 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2023-10-30 01:38:57,771 log 11604 11676 Not Found: /static/admin/js/actions.js
+WARNING 2023-10-30 01:38:57,771 basehttp 11604 3736 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,772 basehttp 11604 3296 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,773 basehttp 11604 13320 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,773 basehttp 11604 6484 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,774 log 11604 3736 Not Found: /static/admin/js/urlify.js
+WARNING 2023-10-30 01:38:57,774 basehttp 11604 11676 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,775 log 11604 3296 Not Found: /static/admin/js/prepopulate.js
+WARNING 2023-10-30 01:38:57,776 log 11604 13320 Not Found: /static/admin/img/search.svg
+WARNING 2023-10-30 01:38:57,777 log 11604 6484 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2023-10-30 01:38:57,777 basehttp 11604 3736 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,780 basehttp 11604 3296 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:38:57,781 basehttp 11604 2404 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-30 01:38:57,781 basehttp 11604 6484 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,781 basehttp 11604 13320 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,784 log 11604 13320 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:38:57,786 log 11604 6484 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:38:57,786 log 11604 2404 Not Found: /static/admin/js/filters.js
+WARNING 2023-10-30 01:38:57,786 log 11604 3296 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:38:57,787 basehttp 11604 6484 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,788 basehttp 11604 13320 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,788 basehttp 11604 2404 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,788 basehttp 11604 3296 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:38:57,849 log 11604 3296 Not Found: /favicon.ico
+WARNING 2023-10-30 01:38:57,849 basehttp 11604 3296 "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2023-10-30 01:40:15,711 basehttp 11604 3296 "GET /admin/myapp/order/ HTTP/1.1" 200 20432
+WARNING 2023-10-30 01:40:15,728 log 11604 3296 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:40:15,729 basehttp 11604 3296 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,730 log 11604 2404 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:40:15,730 log 11604 13320 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:40:15,731 log 11604 6484 Not Found: /static/admin/css/changelists.css
+WARNING 2023-10-30 01:40:15,733 log 11604 11676 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2023-10-30 01:40:15,733 log 11604 3296 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:40:15,734 basehttp 11604 2404 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,734 basehttp 11604 13320 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,734 basehttp 11604 6484 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,734 basehttp 11604 11676 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,735 basehttp 11604 3296 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,736 log 11604 2404 Not Found: /static/admin/js/jquery.init.js
+WARNING 2023-10-30 01:40:15,736 log 11604 13320 Not Found: /static/admin/js/core.js
+WARNING 2023-10-30 01:40:15,737 log 11604 6484 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2023-10-30 01:40:15,738 log 11604 11676 Not Found: /static/admin/js/actions.js
+WARNING 2023-10-30 01:40:15,739 log 11604 3296 Not Found: /static/admin/js/urlify.js
+WARNING 2023-10-30 01:40:15,740 basehttp 11604 2404 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,740 basehttp 11604 13320 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:40:15,740 basehttp 11604 3736 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-30 01:40:15,741 basehttp 11604 6484 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,741 basehttp 11604 11676 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,742 log 11604 2404 Not Found: /static/admin/js/prepopulate.js
+WARNING 2023-10-30 01:40:15,742 basehttp 11604 3296 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,742 log 11604 6484 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2023-10-30 01:40:15,743 log 11604 11676 Not Found: /static/admin/img/search.svg
+WARNING 2023-10-30 01:40:15,744 basehttp 11604 2404 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,744 basehttp 11604 6484 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,744 basehttp 11604 11676 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,746 log 11604 11676 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:40:15,747 log 11604 6484 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:40:15,747 log 11604 3296 Not Found: /static/admin/js/filters.js
+WARNING 2023-10-30 01:40:15,748 log 11604 2404 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:40:15,748 basehttp 11604 11676 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,748 basehttp 11604 6484 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,748 basehttp 11604 3296 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:15,750 basehttp 11604 2404 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:40:17,301 basehttp 11604 2404 "GET /admin/myapp/order/ HTTP/1.1" 200 20432
+WARNING 2023-10-30 01:40:17,319 log 11604 2404 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:40:17,320 log 11604 3296 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:40:17,321 basehttp 11604 2404 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,321 log 11604 6484 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:40:17,322 log 11604 11676 Not Found: /static/admin/css/changelists.css
+WARNING 2023-10-30 01:40:17,323 log 11604 13320 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2023-10-30 01:40:17,324 log 11604 2404 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:40:17,324 basehttp 11604 3296 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,325 basehttp 11604 11676 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,325 basehttp 11604 6484 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,326 basehttp 11604 13320 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,327 log 11604 3296 Not Found: /static/admin/js/jquery.init.js
+WARNING 2023-10-30 01:40:17,329 basehttp 11604 2404 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,329 log 11604 11676 Not Found: /static/admin/js/core.js
+WARNING 2023-10-30 01:40:17,330 log 11604 6484 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2023-10-30 01:40:17,331 log 11604 8660 Not Found: /static/admin/js/urlify.js
+WARNING 2023-10-30 01:40:17,331 log 11604 13320 Not Found: /static/admin/js/actions.js
+INFO 2023-10-30 01:40:17,331 basehttp 11604 3736 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-30 01:40:17,333 basehttp 11604 3296 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,334 basehttp 11604 11676 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,334 basehttp 11604 6484 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,335 log 11604 3296 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2023-10-30 01:40:17,335 log 11604 6484 Not Found: /static/admin/img/search.svg
+WARNING 2023-10-30 01:40:17,335 basehttp 11604 8660 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,336 basehttp 11604 13320 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,336 log 11604 3736 Not Found: /static/admin/js/prepopulate.js
+WARNING 2023-10-30 01:40:17,336 basehttp 11604 3296 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,337 basehttp 11604 6484 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+INFO 2023-10-30 01:40:17,337 basehttp 11604 13320 - Broken pipe from ('127.0.0.1', 56087)
+WARNING 2023-10-30 01:40:17,339 basehttp 11604 3736 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,340 log 11604 3736 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:40:17,340 log 11604 6484 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:40:17,341 log 11604 3296 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:40:17,341 log 11604 11676 Not Found: /static/admin/js/filters.js
+WARNING 2023-10-30 01:40:17,342 basehttp 11604 3736 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,342 basehttp 11604 6484 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,342 basehttp 11604 3296 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:40:17,342 basehttp 11604 11676 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:03,787 autoreload 15076 6360 Watching for file changes with StatReloader
+INFO 2023-10-30 01:41:08,111 basehttp 15076 9620 "GET /admin/myapp/order/ HTTP/1.1" 200 20432
+WARNING 2023-10-30 01:41:08,129 log 15076 9620 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:41:08,130 log 15076 2932 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:41:08,130 basehttp 15076 9620 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,130 basehttp 15076 2932 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,132 log 15076 10068 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:41:08,134 log 15076 6608 Not Found: /static/admin/css/changelists.css
+WARNING 2023-10-30 01:41:08,136 log 15076 9620 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:08,136 log 15076 2932 Not Found: /static/admin/js/urlify.js
+WARNING 2023-10-30 01:41:08,138 log 15076 9660 Not Found: /static/admin/js/actions.js
+WARNING 2023-10-30 01:41:08,139 basehttp 15076 10068 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,139 basehttp 15076 6608 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,140 basehttp 15076 9620 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,141 basehttp 15076 2932 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,142 log 15076 10068 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2023-10-30 01:41:08,142 log 15076 6608 Not Found: /static/admin/js/jquery.init.js
+WARNING 2023-10-30 01:41:08,143 log 15076 9620 Not Found: /static/admin/js/core.js
+WARNING 2023-10-30 01:41:08,143 basehttp 15076 9660 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,144 log 15076 2932 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2023-10-30 01:41:08,145 log 15076 5944 Not Found: /static/admin/js/prepopulate.js
+WARNING 2023-10-30 01:41:08,147 basehttp 15076 10068 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,147 basehttp 15076 6608 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,149 log 15076 11936 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+INFO 2023-10-30 01:41:08,149 basehttp 15076 12656 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-30 01:41:08,149 basehttp 15076 9620 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,149 basehttp 15076 2932 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,149 basehttp 15076 5944 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:08,149 basehttp 15076 10068 - Broken pipe from ('127.0.0.1', 56252)
+WARNING 2023-10-30 01:41:08,151 log 15076 6608 Not Found: /static/admin/img/search.svg
+WARNING 2023-10-30 01:41:08,152 basehttp 15076 11936 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,153 basehttp 15076 6608 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,154 log 15076 11936 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:41:08,154 log 15076 6608 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:08,155 log 15076 9620 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:41:08,155 log 15076 5944 Not Found: /static/admin/js/filters.js
+WARNING 2023-10-30 01:41:08,156 basehttp 15076 11936 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,156 basehttp 15076 6608 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,156 basehttp 15076 9620 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:08,156 basehttp 15076 5944 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:09,669 basehttp 15076 5944 "GET /admin/myapp/order/ HTTP/1.1" 200 20432
+WARNING 2023-10-30 01:41:09,686 log 15076 5944 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:41:09,687 log 15076 9620 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:41:09,687 basehttp 15076 5944 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,688 basehttp 15076 9620 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,688 log 15076 6608 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:41:09,689 log 15076 11936 Not Found: /static/admin/css/changelists.css
+WARNING 2023-10-30 01:41:09,689 log 15076 2932 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2023-10-30 01:41:09,690 log 15076 12656 Not Found: /static/admin/js/actions.js
+WARNING 2023-10-30 01:41:09,690 log 15076 5944 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:09,692 basehttp 15076 11936 "GET /static/admin/css/changelists.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,692 basehttp 15076 6608 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,692 basehttp 15076 12656 "GET /static/admin/js/actions.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,692 basehttp 15076 2932 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,692 basehttp 15076 5944 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,693 log 15076 11936 Not Found: /static/admin/js/jquery.init.js
+WARNING 2023-10-30 01:41:09,694 log 15076 6608 Not Found: /static/admin/js/core.js
+WARNING 2023-10-30 01:41:09,697 log 15076 12656 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2023-10-30 01:41:09,697 log 15076 2932 Not Found: /static/admin/js/urlify.js
+WARNING 2023-10-30 01:41:09,699 log 15076 5944 Not Found: /static/admin/js/prepopulate.js
+INFO 2023-10-30 01:41:09,699 basehttp 15076 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-30 01:41:09,699 basehttp 15076 11936 "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,699 basehttp 15076 6608 "GET /static/admin/js/core.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,699 basehttp 15076 12656 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,701 basehttp 15076 2932 "GET /static/admin/js/urlify.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,701 basehttp 15076 5944 "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,702 log 15076 9620 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2023-10-30 01:41:09,702 log 15076 12656 Not Found: /static/admin/img/search.svg
+WARNING 2023-10-30 01:41:09,703 basehttp 15076 9620 "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,703 basehttp 15076 12656 "GET /static/admin/img/search.svg HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,704 log 15076 12656 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:41:09,705 log 15076 9620 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:09,705 log 15076 5944 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:41:09,706 log 15076 2932 Not Found: /static/admin/js/filters.js
+WARNING 2023-10-30 01:41:09,706 basehttp 15076 12656 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,706 basehttp 15076 9620 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,706 basehttp 15076 5944 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:09,706 basehttp 15076 2932 "GET /static/admin/js/filters.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:11,276 basehttp 15076 2932 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:41:11,296 log 15076 2932 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:41:11,296 basehttp 15076 2932 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,298 log 15076 5944 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:41:11,298 log 15076 9620 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:41:11,299 log 15076 6608 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:11,299 log 15076 11936 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:41:11,300 log 15076 12656 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:41:11,300 log 15076 2932 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:41:11,301 basehttp 15076 5944 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,301 basehttp 15076 9620 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,301 basehttp 15076 6608 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,301 basehttp 15076 11936 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,301 basehttp 15076 12656 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:11,303 basehttp 15076 2932 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:12,605 basehttp 15076 2932 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:41:12,622 log 15076 2932 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:41:12,622 basehttp 15076 2932 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,624 log 15076 12656 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:41:12,624 log 15076 6608 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:41:12,625 log 15076 9620 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:12,625 log 15076 11936 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:41:12,626 log 15076 5944 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:41:12,626 log 15076 2932 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:41:12,627 basehttp 15076 12656 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,627 basehttp 15076 6608 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,627 basehttp 15076 9620 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,629 basehttp 15076 11936 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,629 basehttp 15076 5944 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:12,629 basehttp 15076 2932 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:41:15,644 basehttp 15076 5944 "GET /admin/myapp/ HTTP/1.1" 200 6158
+WARNING 2023-10-30 01:41:15,663 log 15076 5944 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:41:15,664 basehttp 15076 5944 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,665 log 15076 2932 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:41:15,665 log 15076 11936 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:41:15,666 log 15076 6608 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:41:15,666 log 15076 12656 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:41:15,667 log 15076 9620 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:41:15,668 log 15076 5944 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:41:15,668 basehttp 15076 2932 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,668 basehttp 15076 11936 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,669 basehttp 15076 6608 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,669 basehttp 15076 12656 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,669 basehttp 15076 9620 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:41:15,669 basehttp 15076 5944 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:43:34,204 autoreload 12016 14700 Watching for file changes with StatReloader
+INFO 2023-10-30 01:43:38,216 basehttp 12016 15328 "GET /admin/myapp/ HTTP/1.1" 200 6158
+WARNING 2023-10-30 01:43:38,235 log 12016 15328 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:43:38,236 basehttp 12016 15328 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,237 log 12016 15328 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:43:38,238 log 12016 2744 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:43:38,239 log 12016 8868 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:43:38,240 basehttp 12016 15328 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,240 basehttp 12016 2744 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,241 log 12016 13232 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:43:38,241 basehttp 12016 8868 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,241 log 12016 7824 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:43:38,242 log 12016 12500 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:43:38,243 basehttp 12016 13232 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,243 basehttp 12016 7824 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:38,243 basehttp 12016 12500 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:43:39,476 basehttp 12016 12500 "GET /admin/myapp/ HTTP/1.1" 200 6158
+WARNING 2023-10-30 01:43:39,493 log 12016 12500 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:43:39,494 log 12016 7824 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:43:39,494 log 12016 13232 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:43:39,495 log 12016 8868 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:43:39,495 log 12016 2744 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:43:39,496 log 12016 15328 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:43:39,496 basehttp 12016 12500 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,496 basehttp 12016 7824 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,496 basehttp 12016 13232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,498 basehttp 12016 8868 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,498 basehttp 12016 2744 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,498 basehttp 12016 15328 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:39,500 log 12016 2744 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:43:39,500 basehttp 12016 2744 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:43:46,260 basehttp 12016 2744 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:43:46,288 log 12016 2744 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:43:46,288 basehttp 12016 2744 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,289 log 12016 15328 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:43:46,290 log 12016 13232 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:43:46,290 log 12016 8868 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:43:46,291 log 12016 2744 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:43:46,291 log 12016 7824 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:43:46,292 log 12016 12500 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:43:46,293 basehttp 12016 15328 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,293 basehttp 12016 13232 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,293 basehttp 12016 8868 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,293 basehttp 12016 2744 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,294 basehttp 12016 7824 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:46,294 basehttp 12016 12500 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:43:49,467 basehttp 12016 12500 "GET /admin HTTP/1.1" 301 0
+INFO 2023-10-30 01:43:49,481 basehttp 12016 2744 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:43:49,502 log 12016 2744 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:43:49,503 basehttp 12016 2744 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,504 log 12016 7824 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:43:49,505 log 12016 2744 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:43:49,505 log 12016 8868 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:43:49,506 log 12016 15328 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:43:49,507 log 12016 13232 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:43:49,508 log 12016 7404 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:43:49,508 basehttp 12016 7824 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,509 basehttp 12016 2744 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,509 basehttp 12016 8868 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,509 basehttp 12016 15328 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,511 basehttp 12016 13232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:43:49,511 basehttp 12016 7404 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:44:55,576 basehttp 12016 7404 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:44:55,594 log 12016 7404 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:44:55,595 log 12016 13232 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:44:55,596 log 12016 8868 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:44:55,597 log 12016 2744 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:44:55,597 log 12016 7824 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:44:55,598 log 12016 15328 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:44:55,598 basehttp 12016 7404 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,598 basehttp 12016 13232 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,599 basehttp 12016 8868 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,599 basehttp 12016 2744 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,599 basehttp 12016 7824 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,599 basehttp 12016 15328 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:55,601 log 12016 8868 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:44:55,602 basehttp 12016 8868 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:44:56,765 basehttp 12016 8868 "GET /admin/ HTTP/1.1" 200 11087
+WARNING 2023-10-30 01:44:56,784 log 12016 8868 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:44:56,784 basehttp 12016 8868 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,786 log 12016 15328 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:44:56,787 log 12016 8868 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:44:56,787 log 12016 2744 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:44:56,788 log 12016 13232 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:44:56,788 log 12016 7824 Not Found: /static/admin/css/dashboard.css
+WARNING 2023-10-30 01:44:56,789 log 12016 7404 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:44:56,790 basehttp 12016 15328 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,790 basehttp 12016 8868 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,790 basehttp 12016 2744 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,791 basehttp 12016 13232 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,791 basehttp 12016 7824 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:44:56,791 basehttp 12016 7404 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:46:07,974 basehttp 12016 7404 "POST /admin/logout/ HTTP/1.1" 200 3709
+WARNING 2023-10-30 01:46:07,995 log 12016 7404 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:46:07,995 basehttp 12016 7404 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:07,996 log 12016 7824 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:46:07,996 log 12016 13232 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:46:07,997 log 12016 8868 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:46:07,997 log 12016 15328 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:46:07,998 log 12016 2744 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:46:07,998 basehttp 12016 7824 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:07,998 basehttp 12016 13232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:07,999 basehttp 12016 8868 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:07,999 basehttp 12016 15328 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:07,999 basehttp 12016 2744 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:46:10,586 basehttp 12016 2744 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-30 01:46:10,619 basehttp 12016 2744 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:46:10,639 log 12016 2744 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:46:10,639 basehttp 12016 2744 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,641 log 12016 15328 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:46:10,641 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:46:10,642 log 12016 7404 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:46:10,642 log 12016 2744 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:46:10,643 log 12016 8868 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:46:10,643 log 12016 13232 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:46:10,644 basehttp 12016 15328 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,645 basehttp 12016 7404 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,645 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,645 basehttp 12016 2744 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,645 basehttp 12016 8868 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:10,646 basehttp 12016 13232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:46:13,307 basehttp 12016 13232 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:46:13,326 log 12016 13232 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:46:13,326 basehttp 12016 13232 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,328 log 12016 13232 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:46:13,328 log 12016 8868 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:46:13,329 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:46:13,329 log 12016 7404 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:46:13,330 log 12016 15328 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:46:13,330 log 12016 2744 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:46:13,331 basehttp 12016 13232 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,331 basehttp 12016 8868 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,332 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,332 basehttp 12016 7404 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,332 basehttp 12016 15328 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:46:13,332 basehttp 12016 2744 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:47:17,068 basehttp 12016 2744 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:47:17,085 log 12016 2744 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:47:17,086 basehttp 12016 2744 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,088 log 12016 15328 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:47:17,088 log 12016 2744 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:47:17,089 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:47:17,089 log 12016 8868 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:47:17,090 log 12016 13232 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:47:17,090 log 12016 7404 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:47:17,091 basehttp 12016 15328 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,092 basehttp 12016 2744 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,092 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,092 basehttp 12016 8868 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,092 basehttp 12016 7404 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:17,092 basehttp 12016 13232 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:47:18,416 basehttp 12016 7404 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:47:18,435 log 12016 7404 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:47:18,435 basehttp 12016 7404 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,437 log 12016 7404 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:47:18,438 log 12016 13232 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:47:18,438 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:47:18,438 log 12016 2744 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:47:18,439 log 12016 15328 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:47:18,439 log 12016 8868 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:47:18,440 basehttp 12016 13232 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,440 basehttp 12016 7404 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,440 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,442 basehttp 12016 2744 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,442 basehttp 12016 15328 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:18,442 basehttp 12016 8868 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:47:19,446 basehttp 12016 8868 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:47:19,465 log 12016 8868 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:47:19,465 basehttp 12016 8868 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,467 log 12016 8868 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:47:19,468 log 12016 15328 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:47:19,469 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:47:19,469 log 12016 7404 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:47:19,470 log 12016 13232 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:47:19,470 log 12016 2744 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:47:19,471 basehttp 12016 8868 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,471 basehttp 12016 15328 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,471 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,472 basehttp 12016 13232 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,472 basehttp 12016 7404 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,472 basehttp 12016 2744 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:47:19,663 basehttp 12016 2744 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:47:19,681 log 12016 2744 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:47:19,681 basehttp 12016 2744 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,683 log 12016 13232 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:47:19,685 log 12016 2744 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:47:19,685 log 12016 7824 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:47:19,685 log 12016 15328 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:47:19,686 log 12016 8868 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:47:19,687 log 12016 7404 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:47:19,687 basehttp 12016 13232 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,688 basehttp 12016 2744 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,688 basehttp 12016 7824 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,688 basehttp 12016 15328 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,688 basehttp 12016 8868 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:47:19,688 basehttp 12016 7404 "GET /static/admin/css/login.css HTTP/1.1" 404 179

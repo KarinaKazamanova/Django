@@ -24,4 +24,5 @@ urlpatterns = [
     path('prefix/', include('myapp.urls')),
     path('app2/', include('myapp2.urls')),
     # patterns('', (r'^media/(?P../myapp/media.*)$', 'django.views.static.serve'), {'document_root': settings.MEDIA_ROOT})
+    path('__debug__/', include('debug_toolbar.urls')),
 ]

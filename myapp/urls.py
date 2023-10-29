@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from myapp import views
 from .views import *
 
@@ -11,4 +11,5 @@ urlpatterns = [
     path('products/', views.products,name='products'),
     path('add_product/', views.add_product,name='add_product'),
     path('update_product/', views.update_product,name='update_product'),
+    
 ]
