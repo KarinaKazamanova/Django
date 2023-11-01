@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'myapp',
-    'myapp2',
+    # 'myapp2',
     
 ]
 

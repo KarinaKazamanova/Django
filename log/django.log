@@ -6686,3 +6686,244 @@ WARNING 2023-10-30 01:47:19,688 basehttp 12016 7824 "GET /static/admin/css/respo
 WARNING 2023-10-30 01:47:19,688 basehttp 12016 15328 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
 WARNING 2023-10-30 01:47:19,688 basehttp 12016 8868 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
 WARNING 2023-10-30 01:47:19,688 basehttp 12016 7404 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:49:00,831 autoreload 3020 3408 Watching for file changes with StatReloader
+INFO 2023-10-30 01:49:03,633 basehttp 3020 12688 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:49:03,652 log 3020 12688 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:49:03,652 log 3020 14548 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:49:03,653 log 3020 336 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:49:03,653 basehttp 3020 12688 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:03,655 log 3020 14868 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:49:03,655 basehttp 3020 14548 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:03,656 log 3020 12688 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:49:03,657 log 3020 14124 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:49:03,657 basehttp 3020 336 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:03,657 log 3020 9660 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:49:03,658 basehttp 3020 14868 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:03,658 basehttp 3020 12688 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:03,658 basehttp 3020 14124 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:49:03,658 basehttp 3020 336 - Broken pipe from ('127.0.0.1', 56503)
+WARNING 2023-10-30 01:49:03,659 basehttp 3020 9660 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:49:04,758 basehttp 3020 9660 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:49:04,777 log 3020 9660 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:49:04,778 basehttp 3020 9660 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,779 log 3020 14124 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:49:04,779 basehttp 3020 14124 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,780 log 3020 9660 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:49:04,781 log 3020 12688 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:49:04,782 log 3020 14868 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:49:04,783 log 3020 14548 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:49:04,784 log 3020 14124 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:49:04,785 basehttp 3020 9660 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,785 basehttp 3020 14868 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,785 basehttp 3020 12688 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,785 basehttp 3020 14548 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:04,785 basehttp 3020 14124 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:49:07,180 basehttp 3020 14124 "GET /admin/myapp/product/ HTTP/1.1" 302 0
+INFO 2023-10-30 01:49:07,185 basehttp 3020 14124 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4295
+WARNING 2023-10-30 01:49:07,205 log 3020 14124 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:49:07,206 basehttp 3020 14124 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,210 log 3020 14124 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:49:07,211 log 3020 14548 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:49:07,212 log 3020 12688 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:49:07,212 log 3020 14868 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:49:07,213 basehttp 3020 14124 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,213 basehttp 3020 14548 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,214 basehttp 3020 12688 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,214 basehttp 3020 14868 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,220 log 3020 12688 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:49:07,222 log 3020 14868 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:49:07,222 basehttp 3020 12688 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:49:07,222 basehttp 3020 14868 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:50:14,179 basehttp 3020 14868 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4295
+WARNING 2023-10-30 01:50:14,198 log 3020 14868 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:50:14,198 log 3020 12688 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:50:14,199 log 3020 14124 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:50:14,199 log 3020 9660 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:50:14,200 log 3020 14548 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:50:14,201 log 3020 14772 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:50:14,201 basehttp 3020 14868 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,201 basehttp 3020 12688 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,202 basehttp 3020 14124 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,202 basehttp 3020 9660 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,203 log 3020 14868 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:50:14,203 basehttp 3020 14548 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,203 basehttp 3020 14772 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:14,204 basehttp 3020 14868 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:50:16,176 basehttp 3020 14868 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4295
+WARNING 2023-10-30 01:50:16,194 log 3020 14868 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:50:16,194 basehttp 3020 14868 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,196 log 3020 14548 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:50:16,196 log 3020 14868 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:50:16,197 log 3020 14124 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:50:16,197 log 3020 9660 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:50:16,198 log 3020 12688 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:50:16,200 log 3020 5664 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:50:16,200 basehttp 3020 14548 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,200 basehttp 3020 14868 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,201 basehttp 3020 14124 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,201 basehttp 3020 9660 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,201 basehttp 3020 12688 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,201 basehttp 3020 5664 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:50:16,810 basehttp 3020 5664 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4295
+WARNING 2023-10-30 01:50:16,829 log 3020 5664 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:50:16,830 log 3020 12688 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:50:16,830 log 3020 9660 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:50:16,831 log 3020 14124 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:50:16,831 log 3020 14868 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:50:16,831 log 3020 14548 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:50:16,832 basehttp 3020 5664 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,832 basehttp 3020 12688 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,833 basehttp 3020 9660 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,833 basehttp 3020 14124 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,833 basehttp 3020 14868 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,835 log 3020 12688 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:50:16,835 basehttp 3020 14548 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:16,836 basehttp 3020 12688 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:50:17,032 basehttp 3020 12688 "GET /admin/login/?next=/admin/myapp/product/ HTTP/1.1" 200 4295
+WARNING 2023-10-30 01:50:17,051 log 3020 12688 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:50:17,052 log 3020 14548 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:50:17,053 log 3020 9660 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:50:17,054 log 3020 14124 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:50:17,054 log 3020 5664 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:50:17,055 log 3020 14868 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:50:17,055 basehttp 3020 12688 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,055 basehttp 3020 14548 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,056 basehttp 3020 9660 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,056 basehttp 3020 14124 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,056 basehttp 3020 5664 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,056 basehttp 3020 14868 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:17,057 log 3020 14548 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:50:17,058 basehttp 3020 14548 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:46,133 log 3020 14548 Not Found: /
+WARNING 2023-10-30 01:50:46,134 basehttp 3020 14548 "GET / HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:48,776 log 3020 14548 Not Found: /
+WARNING 2023-10-30 01:50:48,777 basehttp 3020 14548 "GET / HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:49,582 log 3020 14548 Not Found: /
+WARNING 2023-10-30 01:50:49,582 basehttp 3020 14548 "GET / HTTP/1.1" 404 179
+WARNING 2023-10-30 01:50:49,810 log 3020 14548 Not Found: /
+WARNING 2023-10-30 01:50:49,811 basehttp 3020 14548 "GET / HTTP/1.1" 404 179
+INFO 2023-10-30 01:51:15,216 autoreload 7716 14800 Watching for file changes with StatReloader
+WARNING 2023-10-30 01:51:18,827 log 7716 4956 Not Found: /
+WARNING 2023-10-30 01:51:18,828 basehttp 7716 4956 "GET / HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:20,898 log 7716 4956 Not Found: /
+WARNING 2023-10-30 01:51:20,898 basehttp 7716 4956 "GET / HTTP/1.1" 404 179
+INFO 2023-10-30 01:51:27,626 basehttp 7716 4956 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-30 01:51:27,654 basehttp 7716 4956 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 01:51:27,676 log 7716 4956 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:51:27,676 basehttp 7716 4956 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:27,684 log 7716 4956 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:51:27,685 log 7716 14960 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:51:27,686 log 7716 3528 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:51:27,688 log 7716 4688 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:51:27,688 basehttp 7716 4956 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:27,688 basehttp 7716 3528 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:27,689 log 7716 11592 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:51:27,689 basehttp 7716 14960 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:27,690 log 7716 14532 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:51:27,690 basehttp 7716 4688 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:51:27,692 basehttp 7716 14960 - Broken pipe from ('127.0.0.1', 56536)
+WARNING 2023-10-30 01:51:27,692 basehttp 7716 11592 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:27,692 basehttp 7716 14532 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:51:38,933 basehttp 7716 14532 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4536
+WARNING 2023-10-30 01:51:38,956 log 7716 14532 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:51:38,957 basehttp 7716 14532 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,957 log 7716 11592 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:51:38,958 log 7716 4688 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:51:38,959 log 7716 4956 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:51:38,960 log 7716 3528 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:51:38,960 log 7716 14532 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:51:38,961 log 7716 9528 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:51:38,961 basehttp 7716 11592 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,962 basehttp 7716 4688 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,962 basehttp 7716 4956 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,962 basehttp 7716 3528 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,963 basehttp 7716 14532 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:51:38,963 basehttp 7716 9528 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+INFO 2023-10-30 01:52:02,196 basehttp 7716 9528 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4536
+WARNING 2023-10-30 01:52:02,214 log 7716 9528 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:52:02,214 basehttp 7716 9528 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,219 log 7716 9528 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:52:02,220 log 7716 14532 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:52:02,221 log 7716 4956 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:52:02,221 log 7716 4688 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:52:02,222 log 7716 11592 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:52:02,222 log 7716 3528 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:52:02,223 basehttp 7716 9528 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,223 basehttp 7716 14532 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,223 basehttp 7716 4956 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,223 basehttp 7716 4688 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,224 basehttp 7716 11592 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:02,224 basehttp 7716 3528 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+INFO 2023-10-30 01:52:11,008 basehttp 7716 3528 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4536
+WARNING 2023-10-30 01:52:11,025 log 7716 3528 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 01:52:11,027 log 7716 11592 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 01:52:11,028 log 7716 4688 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 01:52:11,028 log 7716 4956 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 01:52:11,029 log 7716 14532 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 01:52:11,029 log 7716 9528 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 01:52:11,030 basehttp 7716 3528 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,030 basehttp 7716 11592 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,030 basehttp 7716 4688 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,030 basehttp 7716 4956 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,031 basehttp 7716 14532 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,031 basehttp 7716 9528 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 01:52:11,033 log 7716 4688 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 01:52:11,034 basehttp 7716 4688 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+INFO 2023-10-30 02:05:48,490 basehttp 7716 6904 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 02:05:48,509 log 7716 6904 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:05:48,509 basehttp 7716 6904 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,510 log 7716 6800 Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-10-30 02:05:48,512 log 7716 5416 Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-10-30 02:05:48,512 log 7716 6904 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-10-30 02:05:48,513 basehttp 7716 6800 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,514 log 7716 7696 Not Found: /static/admin/css/login.css
+WARNING 2023-10-30 02:05:48,514 basehttp 7716 5416 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,515 log 7716 4108 Not Found: /static/admin/css/responsive.css
+WARNING 2023-10-30 02:05:48,515 basehttp 7716 6904 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,517 log 7716 8260 Not Found: /static/admin/js/theme.js
+WARNING 2023-10-30 02:05:48,518 basehttp 7716 7696 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,518 basehttp 7716 4108 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:48,519 basehttp 7716 8260 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+WARNING 2023-10-30 02:05:54,871 log 7716 8260 Not Found: /
+WARNING 2023-10-30 02:05:54,871 basehttp 7716 8260 "GET / HTTP/1.1" 404 179
+INFO 2023-10-30 02:06:03,782 basehttp 7716 8260 "GET /app2/lastcoin/ HTTP/1.1" 200 165
+INFO 2023-10-30 02:07:12,178 autoreload 7716 14800 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-30 02:07:12,743 autoreload 12464 1216 Watching for file changes with StatReloader
+INFO 2023-10-30 02:07:13,428 basehttp 12464 9228 "GET /app2/lastcoin/ HTTP/1.1" 200 165
+WARNING 2023-10-30 02:07:19,363 log 12464 9228 Not Found: /
+WARNING 2023-10-30 02:07:19,364 basehttp 12464 9228 "GET / HTTP/1.1" 404 12174
+INFO 2023-10-30 02:07:19,383 basehttp 12464 9228 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-30 02:07:19,384 basehttp 12464 13136 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-30 02:07:19,384 basehttp 12464 8660 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-30 02:07:19,403 basehttp 12464 8660 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-10-30 02:07:27,095 basehttp 12464 8660 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-30 02:07:27,131 basehttp 12464 8660 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 14094
+INFO 2023-10-30 02:07:27,155 basehttp 12464 8660 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-30 02:07:27,159 basehttp 12464 13136 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-30 02:07:27,159 basehttp 12464 9228 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-30 02:07:27,160 basehttp 12464 8660 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-30 02:07:27,160 basehttp 12464 14416 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-30 02:07:27,173 basehttp 12464 7108 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-30 02:07:27,173 basehttp 12464 15084 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-10-30 02:07:36,938 basehttp 12464 15084 "GET /__debug__/render_panel/?store_id=f366229ad8464ed1b76239c210fc7bc5&panel_id=TemplatesPanel HTTP/1.1" 200 24517
+INFO 2023-10-30 02:07:56,242 basehttp 12464 15084 "GET /__debug__/template_source/?template=admin/base.html&template_origin=IkM6XFxVc2Vyc1xcVXNlclxcRGVza3RvcFxcZGphbmdvX3N0dWR5XFx2ZW52XFxMaWJcXHNpdGUtcGFja2FnZXNcXGRqYW5nb1xcY29udHJpYlxcYWRtaW5cXHRlbXBsYXRlc1xcYWRtaW5cXGJhc2UuaHRtbCI:1qxEsR:p_7knQmhqMiKmTUCd7p4o3CPjLzOCOdFrOcWrvgtK1E HTTP/1.1" 200 8102
+INFO 2023-10-30 02:09:04,994 autoreload 12464 1216 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-30 02:09:05,501 autoreload 5344 5832 Watching for file changes with StatReloader
+INFO 2023-10-30 02:17:30,284 autoreload 5344 5832 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-30 02:17:30,786 autoreload 10436 5848 Watching for file changes with StatReloader
+INFO 2023-10-30 02:17:33,122 autoreload 10436 5848 C:\Users\User\Desktop\django_study\myfirstdjangoproject\myfirstdjangoproject\settings.py changed, reloading.
+INFO 2023-10-30 02:17:33,623 autoreload 9088 5452 Watching for file changes with StatReloader
+INFO 2023-10-30 02:17:57,727 basehttp 9088 10952 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 02:17:57,748 log 9088 10952 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:17:57,748 basehttp 9088 10952 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+WARNING 2023-10-30 02:19:01,798 log 9088 10952 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:19:01,798 basehttp 9088 10952 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+INFO 2023-10-30 02:21:11,945 basehttp 9088 10952 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 02:21:11,965 log 9088 10952 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:21:11,965 basehttp 9088 10952 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+INFO 2023-10-30 02:21:13,274 basehttp 9088 10952 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 02:21:13,293 log 9088 10952 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:21:13,294 basehttp 9088 10952 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+INFO 2023-10-30 02:21:14,082 basehttp 9088 10952 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+WARNING 2023-10-30 02:21:14,101 log 9088 10952 Not Found: /static/admin/css/base.css
+WARNING 2023-10-30 02:21:14,102 basehttp 9088 10952 "GET /static/admin/css/base.css HTTP/1.1" 404 179
